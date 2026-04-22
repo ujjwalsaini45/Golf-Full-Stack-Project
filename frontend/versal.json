@@ -1,6 +1,6 @@
 {
-  "installCommand": "npm install",
-  "buildCommand": "npx vite build",
+  "installCommand": "npm install && chmod -R 755 node_modules/.bin",
+  "buildCommand": "npx --yes vite build",
   "outputDirectory": "dist",
   "framework": "vite"
 }
