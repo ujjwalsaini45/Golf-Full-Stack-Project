@@ -1,9 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Scores from "./pages/Scores";
-import Admin from "./pages/Admin";
-
+import Home from "./pages/Home.jsx";
+import Scores from "./pages/Scores.jsx";
+import Admin from "./pages/Admin.jsx";
 function App() {
   return (
     <Routes>
@@ -14,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; //hello
